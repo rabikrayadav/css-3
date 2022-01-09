@@ -1,0 +1,19 @@
+*{
+	margin:auto;
+	padding: 0px;
+}
+.container{
+	max-width: 90%;
+}
+
+h1{
+	font-weight: bolder;
+	font-size: 50px;
+}
+h2{
+	font-size: 30px;
+}
+ol li{
+	font-size: 20px;
+	padding: 10px;
+}
