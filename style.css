@@ -17,3 +17,53 @@ ol li{
 	font-size: 20px;
 	padding: 10px;
 }
+#rcorner1{
+	border-radius: 25px;
+	background: #8ac007;
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+	float: none;
+}
+#rcorner1_1{
+	border-radius:15px 50px 30px 5px;
+	background: #a44170;
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+	float: none;
+}
+#rcorner1_2{
+	border-radius: 15px 100px 50px;
+	background: #a44170;
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+	float: none;
+}
+#rcorner1_3{
+	border-radius: 15px 100px;
+	background: #a44170;
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+	float: none;
+}
+#rcorner2 {
+	border-radius: 25px;
+	border: 2px solid #8ac007;
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+	float: none;
+}
+#rcorner3 {
+	border-radius: 25px;
+	background: url(img/wallpaper.jpg);
+	background-position: center;
+	background-repeat: repeat;
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+	float: none;
+}
