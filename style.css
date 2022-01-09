@@ -248,3 +248,12 @@ div.text:hover{
 	text-overflow: inherit;
 	overflow: visible;
 }
+
+/* style and use of webfonts */
+@font-face {
+	font-family: MyFont; /* defining the name of the font */
+	src: url(font/fontname.woff);  /* full path of the url */
+}
+div.newfont{
+	font-family: myFont; /* calling the font defined before */
+}
