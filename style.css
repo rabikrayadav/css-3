@@ -136,3 +136,33 @@ ol li{
 	background-repeat: no-repeat, no-repeat;
 	padding: 5px;
 }
+
+/* style for clors */
+/* parameter of rgba */
+/* background-color: rgba(red,green,blue,opacity) */
+
+#c1{
+	background-color: rgba(255, 0, 0, 1);
+}
+#c2{
+	background-color: rgba(0, 255, 0, 0.3);
+}
+#c3{
+	background-color: rgba(0, 0, 255, 0.5);
+}
+
+/* another style for color by using hsl */
+/* background-color:hsl(hue,saturate,light) */
+#hsl1{
+	background-color: hsl(120, 100%, 50%);
+}
+#hsl2{
+	background-color: hsl(120, 100%, 75%);
+}
+#hsl3{
+	background-color: hsl(120, 100%, 25%);
+}
+#hsl4{
+	color: white;
+	background-color: hsl(120, 0%, 10%);
+}
