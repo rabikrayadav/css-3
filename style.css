@@ -257,3 +257,36 @@ div.text:hover{
 div.newfont{
 	font-family: myFont; /* calling the font defined before */
 }
+
+/* css for 2-d transform */
+
+div#trans2d{
+	width: 300px;
+	height: 150px;
+	background-color: pink;
+	border: 1px solid black;
+	-ms-transform: rotate(40deg); /* for IE 9 */
+	-webkit-transform: rotate(20deg); /* for Safari */
+	transform: rotate(40deg); /* standard synta */
+}
+div#trans2d_1{
+	width: 300px;
+	height: 150px;
+	background-color: pink;
+	border: 1px solid black;
+	transform: skew(10deg, 20deg); /* standard synta */
+}
+div#trans2d_2{
+	width: 300px;
+	height: 150px;
+	background-color: pink;
+	border: 1px solid black;
+	transform: skewX(15deg); /* standard synta */
+}
+div#trans2d_3{
+	width: 300px;
+	height: 150px;
+	background-color: pink;
+	border: 1px solid black;
+	transform: skewY(15deg); /* standard synta */
+}
