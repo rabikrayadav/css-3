@@ -290,3 +290,27 @@ div#trans2d_3{
 	border: 1px solid black;
 	transform: skewY(15deg); /* standard synta */
 }
+
+/* css for 3d transform */
+
+#trans3d{
+	width: 200px;
+	height: 150px;
+	background-color: green;
+	border: 1px solid black;
+	-webkit-transform: rotateX(120deg);
+}
+#trans3d_1{
+	width: 200px;
+	height: 150px;
+	background-color: green;
+	border: 1px solid black;
+	-webkit-transform: rotateY(120deg);
+}
+#trans3d_2{
+	width: 200px;
+	height: 150px;
+	background-color: green;
+	border: 1px solid black;
+	-webkit-transform: rotateZ(120deg);
+}
