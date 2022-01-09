@@ -166,3 +166,40 @@ ol li{
 	color: white;
 	background-color: hsl(120, 0%, 10%);
 }
+
+/* styles for gradient */
+/* 
+-webkit- for global type of browser
+-o- for opera menu browser
+-moz- for mozila firefox browser 
+*/
+
+#grad1{
+	height: 300px;
+	width: 800px;
+	background: -webkit-linear-gradient(pink,green);
+	background: -o-linear-gradient(pink,green);
+	background: -moz-linear-gradient(pink,green);
+	background: linear-gradient(pink,green);
+}
+
+#grad2{
+	height: 300px;
+	width: 800px;
+	background: -webkit-linear-gradient(left top, red,blue);
+}
+#grad3{
+	height: 300px;
+	width: 600px;
+	background: repeating-radial-gradient(gold,green,yellow,orange,red);
+}
+#grad4{
+	height: 300px;
+	width: 600px;
+	background: repeating-conic-gradient(gold,green,yellow,orange,red);
+}
+#grad5{
+	height: 300px;
+	width: 600px;
+	background: repeating-linear-gradient(gold,blue,green)
+}
