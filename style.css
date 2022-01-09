@@ -203,3 +203,11 @@ ol li{
 	width: 600px;
 	background: repeating-linear-gradient(gold,blue,green)
 }
+
+/* style for multiple column */
+
+.multicol{
+	column-count: 3; /* this will count column */
+	column-gap: 20px; /* this will be make gap between the collumn */
+	column-rule-style: solid; /* this will show horizontal line betwn two column */
+}
